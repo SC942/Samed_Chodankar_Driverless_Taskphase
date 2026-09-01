@@ -9,7 +9,7 @@ class multiplyMatrices:
             print("Multiplication is not possible between these 2 matrices")
             return None
 
-        result = [[0 for _ in range(colsA)] for _ in range(rowsA)]
+        result = [[0 for i in range(colsA)] for i in range(rowsA)]
 
         for i in range(rowsA):
             for j in range(colsB):
